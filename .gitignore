@@ -1,0 +1,31 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+
+# Временные файлы Jupyter
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+
+# Батник для запуска гита из папки
+git start.bat
+
+# Игнорировать все CSV-файлы внутри папки
+data/*.csv
+data/*.tsv
+data/
+
+# Но разрешить README в этой папке
+!data/README.md
+
+# Конфигурации IDE
+.vscode/
+.idea/
+
+# Временные файлы и кэш
+tmp_uploads/
+model/__pycache__/
+
+# Ревью проекта
+review.ipynb
