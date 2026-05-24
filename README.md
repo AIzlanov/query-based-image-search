@@ -7,24 +7,24 @@
 а на выходе выдаст число от 0 до 1, которое покажет насколько текст и картинка подходят друг другу.   
 
 ## Структура проекта
-query-based-image-search/  
-│  
+query-based-image-search/     
+│     
 ├── data/  
-│   ├── train_images/              # папка с изображениями для обучения
-│   │   ├── train_img_001.jpg
-│   │   └── ...
-│   ├── test_images/               # папка с изображениями для тестирования
-│   │   ├── test_img_001.jpg
-│   │   └── ...
-│   ├── CrowdAnnotations.tsv       # разметка краудсорсинга
-│   ├── ExpertAnnotations.tsv      # экспертная разметка (валидация)
-│   ├── train_dataset.csv          # сформированный тренировочный датасет
-│   ├── test_queries.csv           # текстовые запросы для теста
-│   └── test_images.csv            # соответствия картинок для теста
-│   
-├── requirements.txt               # список необходимых библиотек   
-├── query-based-image-search.ipynb # тетрадка с проектом    
-└── README.md                      # описание проекта                            
+│   ├── train_images/ (папка с изображениями для обучения)    
+│   │   ├── train_img_001.jpg    
+│   │   └── ...   
+│   ├── test_images/ (папка с изображениями для тестирования)    
+│   │   ├── test_img_001.jpg    
+│   │   └── ...    
+│   ├── CrowdAnnotations.tsv (разметка краудсорсинга)    
+│   ├── ExpertAnnotations.tsv (экспертная разметка (валидация))    
+│   ├── train_dataset.csv (сформированный тренировочный датасет)    
+│   ├── test_queries.csv (текстовые запросы для теста)    
+│   └── test_images.csv (соответствия картинок для теста)    
+│     
+├── requirements.txt (список необходимых библиотек)       
+├── query-based-image-search.ipynb (тетрадка с проектом)        
+└── README.md (описание проекта)                                
 
 ## Установка
 0. [Скачать файлы](https://code.s3.yandex.net/datasets/dsplus_integrated_project_4.zip)  
