@@ -10,20 +10,20 @@
 query-based-image-search/  
 │  
 ├── data/  
-|   └── train_images/*.jpg
-|   └── test_images/*.jpg
-│   └── CrowdAnnotations.tsv  
-│   └── ExpertAnnotations.tsv  
-│   └── train_dataset.csv  
-│   └── test_queries.csv 
-│   └── test_images.csv 
+|   └── train_images/*.jpg  
+|   └── test_images/*.jpg  
+│   └── CrowdAnnotations.tsv    
+│   └── ExpertAnnotations.tsv    
+│   └── train_dataset.csv    
+│   └── test_queries.csv   
+│   └── test_images.csv   
 │   
-├── requirements.txt (список необходимых библиотек)
+├── requirements.txt (список необходимых библиотек)  
 ├── query-based-image-search.ipynb (тетрадка с проектом)  
 └── README.md  (описание проекта)                                       
 
 ## Установка
-0. [Скачать файлы](https://code.s3.yandex.net/datasets/dsplus_integrated_project_4.zip): 
+0. [Скачать файлы](https://code.s3.yandex.net/datasets/dsplus_integrated_project_4.zip)  
 
 1. Клонирование проекта  
 ```bash
